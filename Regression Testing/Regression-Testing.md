@@ -266,4 +266,17 @@ spoiler: its 1 more than its supposed to be
 - **Expected Outcome:** Show Savings account info in logs
 - **Actual Outcome:** Displays Failure Screen
 
+### Account Inquiry from Money Market (Account 2)
+- **Current State:** on
+- **Steps to Reproduce:**
+    1. Turn on ATM Machine
+    2. Insert Card and put credentials
+    3. Choose Balance Inquiry, then money market
+- **Expected Outcome:**
+    - Choose Money Market
+    - Prints Receipt with Inquiry from Money Market
+    - Total and Available Balance should be $5000
+    - Card Number is 2
+- **Actual Outcome:**
+    - Resolved, matches expected
 --------------------------------------------------------------------------------------------------
