@@ -253,6 +253,17 @@ spoiler: its 1 more than its supposed to be
 - **Expected Outcome:** Invalid Account
 - **Actual Outcome:** Invalid Account
 
+### Chequings -> Savings (Account 1)
+- **Current State:** On
+- **Steps to Reproduce:**
+    1. Turn on ATM Machine
+    2. Insert Card 1 and put credentials
+    3. Select Transfer
+    4. Select Chequing to Saving
+    5. Enter 10 dollars
+- **Expected Outcome:** Chequing to Saving, ammount is 10 dollars, available balance is $1010.
+- **Actual Outcome:** Chequing to Savings, ammount is $10 dollars, available balance is $1000
+
 -------------------------------------------------------------------------------------
 
 ## Balance Inquiry
