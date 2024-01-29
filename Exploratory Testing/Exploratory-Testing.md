@@ -32,7 +32,7 @@
     - Enter incorrect card number, ex. 3
     - Enter incorrect pin, 83
 - **Expected Outcome:** No entry, go back to home
-- **Actual Outcome:** expected
+- **Actual Outcome:** System freezes
 
 ### 3. Entering correct credenials:
 - **Current State:** On

@@ -1,4 +1,12 @@
 ## Authentication
+### 2. Entering incorrect credentials:
+- **Current State:** On
+- **Steps to Reproduce:**
+    - Enter incorrect card number, ex. 3
+    - Enter incorrect pin, 83
+- **Expected Outcome:** No entry, go back to home
+- **Actual Outcome:** Resolved, matches expected
+
 ### 4. Account Number on display:
 spoiler: its 1 more than its supposed to be
 1 is 2, and 2 is 3
@@ -8,6 +16,8 @@ spoiler: its 1 more than its supposed to be
 
 ### 6. Card Number on Receipt (Account 2)
 - Still an issue
+
+
 
 <br/>
 
